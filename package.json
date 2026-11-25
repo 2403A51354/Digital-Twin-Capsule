@@ -1,0 +1,27 @@
+{
+  "name": "digital-time-capsule",
+  "version": "1.0.0",
+  "description": "ChronoVault — Digital Time Capsule Full-Stack Application",
+  "private": true,
+  "scripts": {
+    "install:all": "cd frontend && npm install && cd ../backend && npm install",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "build:all": "npm run build:frontend && npm run build:backend",
+    "test:backend": "cd backend && npm test"
+  },
+  "keywords": [
+    "time-capsule",
+    "react",
+    "typescript",
+    "tailwind",
+    "express",
+    "supabase",
+    "postgresql",
+    "temporal-encryption"
+  ],
+  "author": "ChronoVault Team",
+  "license": "MIT"
+}
